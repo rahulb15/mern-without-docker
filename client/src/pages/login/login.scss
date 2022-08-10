@@ -1,0 +1,123 @@
+.form-title {
+
+  font-size: 5.5rem;
+  font-weight: 1000;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: adjust-hue($color: #a03131, $degrees: 200);
+}
+
+.form-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+  background-color: adjust-hue($color: #a03131, $degrees: 200);
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.form-title::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+  background-color: adjust-hue($color: #a03131, $degrees: 200);
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.form-description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: adjust-hue($color: #a03131, $degrees: 185);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+
+    .control-label {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      color: adjust-hue($color: #6d0808, $degrees: 185);
+    }
+
+    .input-group {
+      width: 100%;
+      height: 3rem;
+      border: 0.1rem solid adjust-hue($color: #a03131, $degrees: 185);
+      border-radius: 0.5rem;
+      padding: 0 1rem;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: adjust-hue($color: #a03131, $degrees: 185);
+      background-color: transparent;
+      transition: all 0.2s ease-in-out;
+
+      &:focus {
+        outline: none;
+        border: 0.1rem solid adjust-hue($color: #a03131, $degrees: 200);
+      }
+    }
+    
+  }
+  
+}
+
+.login-button {
+  width: 100%;
+  height: 5rem;
+  border: 0.3rem solid adjust-hue($color: #a03131, $degrees: 185);
+  border-radius: 10.5rem;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: adjust-hue($color: #a03131, $degrees: 0);
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+
+  &:focus {
+    outline: none;
+    border: 0.1rem solid adjust-hue($color: #a03131, $degrees: 200);
+  }
+}
+
+.login-image{
+    border-radius: 50%;
+}
+
+.alert {
+  width: 100%;
+  height: 5rem;
+  border: 0.3rem solid adjust-hue($color: #a03131, $degrees: 185);
+  border-radius: 10.5rem;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: adjust-hue($color: #a03131, $degrees: 0);
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+
+  &:focus {
+    outline: none;
+    border: 0.1rem solid adjust-hue($color: #a03131, $degrees: 200);
+  }
+}
